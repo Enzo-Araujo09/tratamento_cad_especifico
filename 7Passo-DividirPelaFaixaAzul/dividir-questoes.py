@@ -24,7 +24,7 @@ def converter_cor_gimp_para_rgb(gimp_r, gimp_g, gimp_b):
     b = int((gimp_b / 100) * 255)
     return (r, g, b)
 
-def encontrar_faixa_azul(imagem, cor_alvo, tolerancia=15, altura_faixa=10): # ATUALIZAR a altura da faixa
+def encontrar_faixa_azul(imagem, cor_alvo, tolerancia=15, altura_faixa=13): # ATUALIZAR a altura da faixa
     """
     Encontra posições onde há uma faixa horizontal da cor especificada
     """
