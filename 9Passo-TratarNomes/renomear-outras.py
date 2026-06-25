@@ -12,7 +12,7 @@ OBS4: ENTENDA muito bem o for da linha 25!!!!!!!!!!!
 import os
 
 def renomear_questoes_simples():
-    pasta = "14-66" # ATUALIZAR com o nome da pasta das questões que você vai arrumar (ex: 80-90, 15, 28)
+    pasta = "96-141" # ATUALIZAR com o nome da pasta das questões que você vai arrumar (ex: 80-90, 15, 28)
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
@@ -22,7 +22,7 @@ def renomear_questoes_simples():
     mapeamento = {}
         
     # Exemplo: parte_00x a parte_00y -> questao-x a questao-y
-    for i in range(97, 141+1):    # atualize seu for com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1 da pasta
+    for i in range(81, 91+1):    # atualize seu for com o número da primeira imagem "parte_AlgumaCoisa.png" até o número da última imagem "parte_AlgumaCoisa.png" mais 1 da pasta
         antigo = f"parte_{i:03d}.png"
         #novo = f"questao-{i+78}-espanhol.png"  # faça uma conta: se a primeira pagina for 
         #novo = f"questao-{i+78}-ingles.png"
